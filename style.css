@@ -3,3 +3,49 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+.product-holder {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 40px;
+}
+
+.product {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    position: relative;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff5252;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.tag.new {
+    background: #4CAF50;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.price .old {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 8px;
+}
