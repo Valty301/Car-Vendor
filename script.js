@@ -1,7 +1,21 @@
 const app = document.getElementById("holder");
 
 holder.innerHTML = `
-<div class="container">
+    <section class="about">
+        <h2>About Us</h2>
+        <p>
+        Welcome to AutoDrive, your trusted destination for quality cars.
+        We offer reliable, stylish, and affordable vehicles to suit
+        your needs and lifestyle.
+        </p>
+        <p>
+        Our goal is to make buying your next car simple, easy, and
+        enjoyable.
+        </p>
+        <a href="#">Learn More</a>
+        </section>
+
+        <div class="container">
             <div class="product-holder">
                 <div class="product">
                     <img src="./Images/syltherine.png" alt="Syltherine Chair">
